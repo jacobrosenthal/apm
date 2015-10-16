@@ -110,11 +110,11 @@ var downloadNode = function(version, done) {
   }
 };
 
-downloadNode('v4.2.1', function(error) {
-  if (error != null) {
-    console.error('Failed to download node', error);
-    return process.exit(1);
-  } else {
+//downloadNode('v4.2.1', function(error) {
+//  if (error != null) {
+//    console.error('Failed to download node', error);
+//    return process.exit(1);
+//  } else {
     return process.exit(0);
-  }
-});
+//  }
+//});
